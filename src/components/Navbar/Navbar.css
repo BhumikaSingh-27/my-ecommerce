@@ -10,7 +10,7 @@
     justify-content: space-between;
     /* padding: 0.5rem 1rem; */
     box-shadow: 0 2px 5px 5px var(--secondary-color);
-    /* box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.2); */
+
 }
 
 .nav-header {
@@ -48,4 +48,5 @@
 .login:hover {
     background-color: var(--primary-color);
     color: white;
+    cursor: pointer;
 }
