@@ -57,3 +57,7 @@
     font-size: 1.5rem;
     padding-top: 1rem;
 }
+
+.icon-style:hover {
+    color: var(--primary-color);
+}
