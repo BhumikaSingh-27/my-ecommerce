@@ -20,16 +20,14 @@ const Navbar = () => {
 
       <div className="navbar-nav">
         <div className="login">Login</div>
-        <NavLink to="/wishlist">
-          <div className="icon-style">
-            <FaRegHeart />
-          </div>
-        </NavLink>
+
+        <div className="icon-style">
+          <FaRegHeart />
+        </div>
+
         <div className="icon-style">
           {" "}
-          <NavLink to="/cart">
-            <FaShoppingCart />
-          </NavLink>
+          <FaShoppingCart />
         </div>
       </div>
     </div>

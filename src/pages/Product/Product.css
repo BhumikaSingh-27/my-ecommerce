@@ -1,5 +1,5 @@
 .product-details {
-    width: 650px;
+    width: 800px;
     height: 400px;
     box-shadow: 2px 2px 4px 2px var(--secondary-color);
     margin: auto;
@@ -37,5 +37,5 @@
 /* product main page- styling */
 .product-page{
     display: flex;
-    
+
 }
