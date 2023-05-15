@@ -11,8 +11,13 @@ const Navbar = () => {
         {" "}
         <h1 className="nav-header">Shopify</h1>
       </NavLink>
+      <div className="search-container">
+        <div>
+          <em></em>
+          <input className="nav-input" type="text" placeholder="Search" />
+        </div>
+      </div>
 
-      <input className="nav-input" type="text" placeholder="search" />
       <div className="navbar-nav">
         <div className="login">Login</div>
         <NavLink to="/wishlist">

@@ -2,7 +2,8 @@
     --primary-color: #e11d48;
     --secondary-color: #d1d5db
 }
-.not-a-link{
+
+.not-a-link {
     text-decoration: none;
 }
 
@@ -21,6 +22,25 @@
     margin-left: 5rem;
 }
 
+.search-container {
+    display: flex;
+}
+
+.search-container div {
+    position: relative;
+}
+
+.search-container em {
+    position: absolute;
+    background-image: url("../../assests/searchicon.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    top:30px;
+    left: 55px;
+    
+}
 
 .nav-input {
     border-radius: 0.5rem;
@@ -28,8 +48,9 @@
     height: 40px;
     border: 1px solid var(--secondary-color);
     margin: 1.5rem 0rem 1.5rem 3rem;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 20px 0px 40px;
     font-family: inherit;
+    font-size: 1rem;
 
 }
 
