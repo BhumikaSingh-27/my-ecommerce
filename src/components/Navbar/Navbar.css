@@ -2,6 +2,9 @@
     --primary-color: #e11d48;
     --secondary-color: #d1d5db
 }
+.not-a-link{
+    text-decoration: none;
+}
 
 .navbar {
     /* border: 1px solid black; */

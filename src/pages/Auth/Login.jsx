@@ -8,18 +8,25 @@ const Login = () => {
       <div className="login-page">
         <h3>Sign In</h3>
         <div className="login-element">
-          <label>Email:</label> <input class="input-element" type="text" placeholder="bhumika@gmail.com" />
+          <label>Email:</label>{" "}
+          <input
+            class="input-element"
+            type="text"
+            placeholder="bhumika@gmail.com"
+          />
           <label>Password:</label>
-          <input class="input-element" type="text" placeholder="***********"/>
+          <input
+            class="input-element"
+            type="password"
+            placeholder="***********"
+          />
           <button className="login-btn">Login</button>
         </div>
         <p>
           <a href="/root">Forgot password?</a>
         </p>
         <a className="link" href="/signup">
-          
-            Create a new account <FaArrowAltCircleRight />
-        
+          Create a new account <FaArrowAltCircleRight />
         </a>
       </div>
     </div>

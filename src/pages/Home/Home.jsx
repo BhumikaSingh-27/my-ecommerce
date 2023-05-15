@@ -1,19 +1,27 @@
 import React from "react";
 import Category from "./components/Category";
 import "./Home.css";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
     <>
+      <main>
+        <div className="home-hero-image">
+          <NavLink className="not-a-link" to="/product">
+            <img
+              src="https://imgcdn.floweraura.com/flower_homepage_fa_desktop_5.jpg?tr=w-1583,dpr-1.5,q-70"
+              alt=""
+            />
+          </NavLink>
+        </div>
+      </main>
+
       <div class="home-category-display">
         <Category name="women" />
         <Category name="men" />
       </div>
-      <main>
-        <div className="home-hero-image">
-          <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNhbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
-        </div>
-      </main>
+
       <footer>
         <div>
           <h3>Let's Connect</h3>

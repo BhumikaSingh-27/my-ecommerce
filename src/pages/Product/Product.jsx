@@ -1,12 +1,16 @@
-import React from 'react'
-import Filter from './components/Filter'
+import React from "react";
+import Filter from "./components/Filter";
+import ProductCard from "./components/ProductCard";
 
 const Product = () => {
   return (
-    <div>
-        <Filter/>
+    <div className="product-page">
+      <Filter />
+      <div>
+        <ProductCard />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Product
+export default Product;

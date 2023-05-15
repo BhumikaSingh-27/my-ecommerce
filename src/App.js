@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Login from "./pages/Auth/Login";
@@ -5,19 +6,27 @@ import Signup from "./pages/Auth/Signup";
 import CartPrice from "./pages/Cart/components/CartPrice";
 import CartProduct from "./pages/Cart/components/CartProduct";
 import Home from "./pages/Home/Home";
+import ProductDetails from "./pages/Product/ProductDetails";
 import Filter from "./pages/Product/components/Filter";
 import ProductCard from "./pages/Product/components/ProductCard";
+import Cart from "./pages/Cart/Cart";
+import Wishlist from "./pages/Wishlist/Wishlist";
+import Product from "./pages/Product/Product";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home />
       {/* <Login /> */}
-      {/* <div><Signup /></div> */}
-      {/* <ProductCard /> */}
-      <CartProduct />
-      {/* <CartPrice /> */}
+        {/* <Signup /> */}
+      <Routes>
+        
+        <Route path="/" element={<Home />}></Route>
+        {/* <Route path="/home" element={<Home />}></Route> */}
+        <Route path="/cart" element={<Cart />}></Route>
+        <Route path="/product" element={<Product />}></Route>
+        <Route path="/wishlist" element={<Wishlist />}></Route>
+      </Routes>
     </div>
   );
 }
