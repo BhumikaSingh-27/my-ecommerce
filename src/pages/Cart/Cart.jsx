@@ -5,7 +5,6 @@ import CartProduct from "./components/CartProduct";
 const Cart = () => {
   return (
     <div>
-      This is cart Cart
       <CartPrice />
       <CartProduct />
     </div>

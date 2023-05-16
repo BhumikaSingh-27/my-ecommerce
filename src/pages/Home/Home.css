@@ -12,15 +12,12 @@
      margin: 10rem 0rem;
  }
 
- .feature-image div {
-     width: 100px;
-     height: 100px;
+ .align-category {
+     display: flex;
+     gap: 3rem;
+     justify-content: center;
+     flex-wrap: wrap;
  }
-
- /* .feature-image img {
-     
-
- } */
 
  footer {
      position: relative;

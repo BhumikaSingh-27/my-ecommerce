@@ -17,14 +17,16 @@ const Home = () => {
           </NavLink>
         </div>
       </main>
-      <div className="feature-image">
+      
         <h1>Trending Collections</h1>
 
-        <div>
+        <div className="align-category">
           <Category />
           <Category />
+          <Category />
+          
     
-        </div>
+   
       </div>
       <footer>
         <Footer />

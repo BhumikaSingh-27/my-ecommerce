@@ -26,7 +26,7 @@ const ProductCard = () => {
         {/* <div>Author</div> */}
         <div class="product-price-details">
           {" "}
-          <h2>&#x20B9;200</h2> <span class="cross-text"> &#x20B9;400</span>
+          <h2>&#x20B9;200</h2> <span className="cross-text"> &#x20B9;400</span>
         </div>
         <button className="add-btn">
           <FaShoppingCart /> Add to Cart
