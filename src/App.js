@@ -12,21 +12,13 @@ import ProductCard from "./pages/Product/components/ProductCard";
 import Cart from "./pages/Cart/Cart";
 import Wishlist from "./pages/Wishlist/Wishlist";
 import Product from "./pages/Product/Product";
+import CheckoutCard from "./pages/Checkout/Checkout/CheckoutCard";
+import Checkout from "./pages/Checkout/Checkout";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      {/* <Login /> */}
-      {/* <Signup /> */}
-      {/* <ProductDetails /> */}
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        {/* <Route path="/home" element={<Home />}></Route> */}
-        <Route path="/cart" element={<Cart />}></Route>
-        <Route path="/product" element={<Product />}></Route>
-        <Route path="/wishlist" element={<Wishlist />}></Route>
-      </Routes>
+      <Checkout />
     </div>
   );
 }

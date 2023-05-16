@@ -1,7 +1,7 @@
  .home-category-display {
      display: flex;
      gap: 4rem;
-     justify-content: center;
+     justify-content: space-around;
 
  }
 
@@ -17,11 +17,10 @@
      height: 100px;
  }
 
- .feature-image img {
-     width: 100px;
-     height: 100px;
+ /* .feature-image img {
+     
 
- }
+ } */
 
  footer {
      position: relative;

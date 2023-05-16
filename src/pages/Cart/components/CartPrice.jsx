@@ -25,7 +25,7 @@ const CartPrice = () => {
         </div>
         <hr />
         <span className="cart-price-message">You will save rs 200 on this order</span>
-        <button className="add-btn">Place order</button>
+        <button className="add-btn">Checkout</button>
       </div>
     </div>
   );

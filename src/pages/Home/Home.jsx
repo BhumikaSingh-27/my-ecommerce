@@ -19,15 +19,12 @@ const Home = () => {
       </main>
       <div className="feature-image">
         <h1>Trending Collections</h1>
-        <div> <img
-          src="https://imgcdn.floweraura.com/flower_homepage_fa_desktop_8.jpg?tr=w-1583,dpr-1.5,q-70"
-          alt="trending"
-        /></div>
-       
-        {/* <div class="home-category-display">
-        <Category name="women" />
-        <Category name="men" />
-      </div> */}
+
+        <div>
+          <Category />
+          <Category />
+    
+        </div>
       </div>
       <footer>
         <Footer />
