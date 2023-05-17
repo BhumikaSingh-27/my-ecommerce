@@ -1,20 +1,21 @@
-.login-page{   
+.login-page {
     box-shadow: 0 4px 8px 8px var(--secondary-color);
     border-radius: 0.5rem;
     position: absolute;
     width: 525px;
     padding: 2rem;
     left: 500px;
-    top:100px;
+    top: 100px;
 }
 
-.login-container{
+.login-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 .sign-page {
     display: flex;
     flex-direction: column;
@@ -23,7 +24,7 @@
     box-shadow: 0 4px 8px 8px var(--secondary-color);
     border-radius: 0.5rem;
     width: 525px;
-    height: 550px;
+    height: 650px;
     position: absolute;
     left: 500px;
 }
@@ -90,7 +91,7 @@ label {
 .password-icon {
     position: relative;
     bottom: 2.5rem;
-    left: 24rem;
+    left: 22rem;
     display: inline-block;
     width: 20px;
 }

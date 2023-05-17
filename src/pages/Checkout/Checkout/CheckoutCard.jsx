@@ -9,9 +9,11 @@ const CheckoutCard = () => {
         <h3>ORDER DETAILS</h3>
         <hr />
         <div className="container-margin">
+            <div className="checkout-header">
           <div className="checkout-flex">
             <h3>Item</h3>
             <h3>Qty</h3>
+          </div>
           </div>
 
           {/* this will vary, we need to apply map and return this */}

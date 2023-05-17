@@ -1,8 +1,8 @@
 import React from "react";
-import "../Cart.css";
-import "../../Product/Product.css";
+import "./Wishlist.css";
+import "../../Cart/Cart.css";
 
-const CartProduct = () => {
+const WishlistCart = () => {
   return (
     <div>
       <div className="cart-product-card">
@@ -17,19 +17,19 @@ const CartProduct = () => {
                 <p className="cross-price">&#x20B9;200 </p>{" "}
                 <span>(30%OFF)</span>
               </div>
-            </div>
-            <div>
-              Quantity: <button className="quantity-change-btn">-</button> 1{" "}
-              <button className="quantity-change-btn">+</button>
+              <div>
+                Quantity: <button className="quantity-change-btn">-</button> 1{" "}
+                <button className="quantity-change-btn">+</button>
+              </div>
             </div>
           </div>
 
-          <button className="add-btn remove-btn">Remove from Cart</button>
-          <button className="add-to-wishlist">Add to wishlist</button>
+          <button className="add-btn remove-btn"> Remove from Wishlist</button>
+          <button className="add-to-wishlist">Add to Cart</button>
         </div>
       </div>
     </div>
   );
 };
 
-export default CartProduct;
+export default WishlistCart;

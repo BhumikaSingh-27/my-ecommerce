@@ -23,7 +23,6 @@ const Home = () => {
         <div className="align-category">
           <Category />
           <Category />
-          <Category />
           
     
    

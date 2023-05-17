@@ -7,13 +7,19 @@
 }
 
 .container-margin {
-    margin: 1rem 0rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0px;
+    
 }
 
 .checkout-container h3 {
     padding: 0.5rem 0rem;
 }
 
+.container-margin h3{
+    padding:0px;
+    margin-top: 0px;
+}
 .checkout-flex {
     display: flex;
     justify-content: space-between;
@@ -45,14 +51,14 @@
 
 
 /* styles in checkout address */
-.address-container{
+.address-container {
     padding: 1rem;
-    box-shadow:2px 2px 4px 2px var(--secondary-color); 
- }
+    box-shadow: 2px 2px 4px 2px var(--secondary-color);
+}
 
-.address-bar{
+.address-bar {
     display: flex;
-    gap:10px;
+    gap: 10px;
     font-weight: normal;
 }
 
@@ -62,7 +68,7 @@
 
 .show-checkout-container {
     display: flex;
-    gap:10rem;
+    gap: 10rem;
 }
 
 .checkout-address-container {
@@ -70,14 +76,14 @@
     flex-direction: column;
 }
 
-.main-checkout-body{
+.main-checkout-body {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
-    
+
 }
 
-.checkout-body{
+.checkout-body {
     margin-top: 2rem;
 }

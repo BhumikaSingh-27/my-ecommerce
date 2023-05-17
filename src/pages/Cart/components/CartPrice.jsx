@@ -1,22 +1,29 @@
 import React from "react";
+import "../Cart.css";
+import "../../Product/components/Filter.css";
 
 const CartPrice = () => {
   return (
     <div>
       <div className="cart-price-details">
-        <h3>Price Details</h3>
-        <hr />
-        <div className="cart-price-flex">
-          <div>Price</div>
-          <div>&#x20B9;200</div>
+        <div className="cart-hr-title" >
+          <hr />
+          <h3 className="cart-price-title">Price Details</h3>
+          <hr />
         </div>
-        <div className="cart-price-flex">
-          <div>Discount</div>
-          <div>&#x20B9;200</div>
-        </div>
-        <div className="cart-price-flex">
-          <div>Delivery Charges</div>
-          <div>&#x20B9;200</div>
+        <div className="cart-price">
+          <div className="cart-price-flex">
+            <div>Price (2 items)</div>
+            <div>&#x20B9;200</div>
+          </div>
+          <div className="cart-price-flex">
+            <div>Discount</div>
+            <div>&#x20B9;200</div>
+          </div>
+          <div className="cart-price-flex">
+            <div>Delivery Charges</div>
+            <div>&#x20B9;200</div>
+          </div>
         </div>
         <hr />
         <div className="cart-price-flex">
